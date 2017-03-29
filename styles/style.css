@@ -38,7 +38,10 @@ a.button {
 	font-size: 15px;
 	border-radius: 2px;
 	padding: 7px 10%;
-  display: block;
+	display: block;
+}
+
+a.header-button {
   min-width: 40px;
   max-width: 80px;
   text-align: center;
@@ -68,6 +71,84 @@ a.button-white {
 .top-margin {
 	margin: 15% 0px;
 }
+
+/* Skills Section Start */
+.skills {
+	padding: 100px 0px;
+}
+
+.primery-background {
+	background: #3498db;
+}
+
+.wrap-skill {
+	display: block;
+}
+
+.wrap-skill h5 {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(30% - 15px);
+}
+
+.progress-frame {
+	background: rgba(245, 245, 245, 1);
+	margin-bottom: 0px;
+	width: 65%;
+	height: 5px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.progress-bar-custom {
+	background: rgba(65, 201, 110, 1);
+	width: 0%;
+	transition: 2s all ease-out;
+}
+
+.content {
+	display: inline-block;
+	width: 75%;
+	padding: 0px 10px;
+	float: right;
+}
+
+.button-wrapper {
+	display: block;
+	text-align: center;
+}
+
+.invert-color {
+	color: white;
+}
+
+.card {
+	padding: 7px 0px;
+	width: 100%;
+	display: flex;
+	background: #ecf0f1;
+	border: 2px solid #eee;
+	margin-bottom: 2px;
+}
+
+.card img {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.sr-only {
+	position: absolute;
+	padding: 0px;
+	margin: -7px;
+	border: 0;
+	z-index: 100;
+	overflow: visible;
+	clip: auto;
+}
+/* Skills Section End */
 
 @media (max-width: 500px) {
   .logo {
