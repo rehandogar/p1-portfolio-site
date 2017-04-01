@@ -123,20 +123,30 @@ a.button-white {
 }
 
 .card {
-	padding: 7px 0px;
-	width: 100%;
+	background: white;
+	box-shadow: 0px 2px 7px black;
 	display: flex;
-	background: #ecf0f1;
-	border: 2px solid #eee;
-	margin-bottom: 2px;
+	margin-bottom: 5px;
+	width: 100%;
 }
 
 .card img {
-	display: inline-block;
+	display: block;
 	width: auto;
 	height: auto;
 	max-width: 80px;
 	max-height: 80px;
+	margin: auto;
+}
+
+.card a{
+	color: #333;
+}
+
+.card-image {
+	background: rgba(65, 201, 110, 1);
+	display: inline-flex;
+	width: 25%;
 }
 
 .sr-only {
