@@ -158,6 +158,40 @@ a.button-white {
 	overflow: visible;
 	clip: auto;
 }
+
+/* project section */
+.support-color {
+	background: #EEE;
+}
+
+.projects {
+	min-height: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.project-card {
+	display: flex;
+	margin-top: 15px;
+}
+
+.project-card .content h2 {
+	color: #333;
+	font-size: 20px;
+	text-align: left;
+}
+
+.project-card .content p {
+	text-align: left;
+}
+
+.project-img {
+	min-height: 80px;
+	min-width: 190px;
+	max-height: 120px;
+	max-width: 210px;
+}
+
 /* Skills Section End */
 
 @media (max-width: 500px) {
@@ -172,4 +206,12 @@ a.button-white {
   .top-margin {
     margin: 40% 0px;
   }
+
+	.project-card .content h2 {
+		font-size: 15px;
+	}
+
+	.project-card .content p {
+		font-size: 13px;
+	}
 }
