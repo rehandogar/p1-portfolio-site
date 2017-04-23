@@ -170,6 +170,11 @@ a.button-white {
 	padding-bottom: 15px;
 }
 
+.projects-wrapper {
+	display: block;
+	text-align: center;
+}
+
 .project-card {
 	display: flex;
 	margin-top: 15px;
@@ -192,7 +197,62 @@ a.button-white {
 	max-width: 210px;
 }
 
+.projects-button {
+	display: block;
+	position: absolute;
+}
+
+.subscribe-me {
+	display: flex;
+	padding: 30px 20%;
+}
+
+.subscribe-form {
+	border: 2px solid #fff;
+	width: 200px;
+	height: 30px;
+  background: transparent;
+}
+
+.contacts {
+	background-image: url('/images/subscribe-me.jpg');
+	display: flex;
+}
+
+.contact-me {
+	display: block;
+	width: 250px;
+	margin: auto;
+}
+
+.contact-me h3 {
+	border-bottom: 1px dotted black;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.contact-me a {
+	color: #333;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.map-image {
+	display: block;
+	width: 50%;
+}
+
 /* Skills Section End */
+footer {
+	width: 100%;
+	height: 50px;
+	padding: 17px 0px;
+	text-align: center;
+	color: white;
+	background: #333;
+}
 
 @media (max-width: 500px) {
   .logo {
@@ -213,5 +273,18 @@ a.button-white {
 
 	.project-card .content p {
 		font-size: 13px;
+	}
+
+	.contacts {
+		display: block;
+		margin-top: -20px;
+	}
+
+	.contact-me {
+		width: 50%;
+	}
+
+	.map-image {
+		width: 100%;
 	}
 }
