@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Home - Rehan Umar</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="styles/libs/bootstrap.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
-	<header class="row">
+	<header class="container">
       <div class="col-xs-9 col-sm-10 col-md-9 col-md-offset-1">
         <img src="images/dp.png" class="img-circle dp" alt="Profile Picture">
 				<div class="main-title text-decoration text-uppercase">
@@ -110,8 +111,71 @@
   			</div>
       </div>
 		</section>
+    <section class="projects support-color">
+      <section class="projects-wrapper">
+        <h3> List of Some of my projects </h3>
+        <section class="col-md-4 text-center project-card">
+          <img src="images/feed-reader.png" class="project-img">
+          <div class="content">
+            <a href="https://rehanumar.github.io/p6-feed-reader-testing/index.html">
+              <h2>Feed Reader Testing</h2>
+            </a>
+            <p>unit testing and asynchronous testing with Jasmine</p>
+          </div>
+        </section>
+        <section class="col-md-4 text-center project-card">
+          <img src="images/arcade-game.png" class="project-img">
+          <div class="content">
+            <a href="https://rehanumar.github.io/p3-classic-arcade-game/index.html">
+              <h2>Arcade Game (Frogger)</h2>
+            </a>
+            <p>object oriented programming and canvas APIs in JavaScript</p>
+          </div>
+        </section>
+        <section class="col-md-4 text-center project-card">
+          <img src="images/neighbourhood-map.png" class="project-img">
+          <div class="content">
+            <a href="https://rehanumar.github.io/p5-neighborhood-map/index.html">
+              <h2>Neighbourhood map</h2>
+            </a>
+            <p>focused on design patterns specifically MVVM and google map APIs</p>
+          </div>
+        </section>
+      </section>
+      <div class="button-wrapper projects-button">
+        <a href="#" class="button button-grey">More...</a>
+      </div>
+    </section>
+    <section class="contacts">
+      <section class="subscribe-me">
+        <h5 class="invert-color">I often write on my blogs, subscribe me to get the feed!</h5>
+        <input class="subscribe-form" type="email" />
+        <a class="button button-white" href="#">
+          <i class="fa fa-send"></i> Subscribe
+        </a>
+      </section>
+      <section class="contact-me">
+        <section class="contacts-items">
+          <a class="contact-icon" href="https://www.quora.com/profile/Rehan-Umar-3">
+            <i class="fa fa-quora"></i>
+          </a>
+          <a class="contact-icon" href="email:rehanumardogar@gmail.com">
+            <i class="fa fa-envelope-square"></i>
+          </a>
+          <a class="contact-icon" href="https://pk.linkedin.com/in/rehan-umar-37b769a7">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          <a class="contact-icon" href="https://github.com/rehanumar">
+            <i class="fa fa-code-fork"></i>
+          </a>
+        </section>
+        <img class="map-image" src="https://maps.googleapis.com/maps/api/staticmap?center=31.5241608,74.3510258&zoom=11&size=650x450">
+      </section>
+    </section>
   </main>
-	<footer></footer>
+	<footer>
+    &copy; 2017 by enterprise All Rights Reserved.
+  </footer>
   <script src="js/libs/jquery-3.2.0.js"></script>
   <script src="js/libs/bootstrap.js"></script>
   <script src="js/app.js"></script>
