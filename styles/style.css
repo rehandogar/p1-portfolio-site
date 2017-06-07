@@ -226,7 +226,7 @@ a.button-grey {
 }
 
 .subscribe-me {
-	background: #000 url('/images/contact-me.jpg') no-repeat;
+	background: #000 url('../images/contact-me.jpg') no-repeat;
 	background-size: cover;
 	display: inline-block;
 	min-width: 50%;
@@ -278,7 +278,7 @@ footer {
 
 @media (max-width: 500px) {
   .logo {
-  	font-size: 25px;
+  	font-size: 18px;
   }
 
   .text-decoration {
